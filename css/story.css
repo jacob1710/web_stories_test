@@ -1,4 +1,4 @@
-body {
+.story-body {
   min-height: 100vh;
   display: grid;
   align-items: center;
@@ -6,12 +6,12 @@ body {
   place-items: center;
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif;
   margin: 0;
-  background: hsl(200, 15%, 93%)
+  /* background: hsl(200, 15%, 93%) */
 
   /* parent owned aspects of the responsive stories */
 }
 
-body > .stories {
+.story-body > .stories {
     width: 100vw;
     height: 100vh;
 
@@ -26,32 +26,31 @@ body > .stories {
 
 @media (hover: hover) {
 
-body > .stories {
+.story-body > .stories {
       border-radius: 3ch
   }
     }
 
-body > .stories {
+.story-body > .stories {
 
     /* desktop constraint */
   }
 
 @media (hover: hover) and (min-width: 480px) {
 
-body > .stories {
+.story-body > .stories {
       max-width: 480px;
       max-height: 848px
   }
     }
 
-body > .stories {
+.story-body > .stories {
 
     /* smaller desktop constraint */
   }
 
 @media (hover: hover) and (max-height: 880px) and (min-width: 720px) {
-
-body > .stories {
+.story-body > .stories {
       max-width: 320px;
       max-height: 568px
   }
