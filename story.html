@@ -9,13 +9,12 @@
     <meta name="description" content="🙂">
     <title>Your Story</title>
     <link href="css/halfmoon.css" rel="stylesheet" />
-    <script src="js/index.js" defer></script>
+    <script src="js/story.js" defer></script>
     <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="stylesheet" href="css/story.css">
 </head>
 
-<body class="with-custom-webkit-scrollbars with-custom-css-scrollbars" data-dm-shortcut-enabled="true"
-    data-set-preferred-mode-onload="true">
+<body class="with-custom-webkit-scrollbars with-custom-css-scrollbars" data-dm-shortcut-enabled="true" data-set-preferred-mode-onload="true">
     <div class="page-wrapper with-navbar with-navbar-fixed-bottom">
         <div class="sticky-alerts"></div>
         <nav class="navbar">
@@ -35,8 +34,7 @@
                         <div class="dropdown-divider"></div>
                         <div class="dropdown-content">
                             <form action="..." method="...">
-                                <input class="btn btn-danger btn-block mb-5" type="submit" value="Back" formaction={{
-                                    src }}>
+                                <input class="btn btn-danger btn-block mb-5" type="submit" value="Back" formaction={{ src }}>
                             </form>
                         </div>
                     </div>
@@ -44,44 +42,46 @@
             </div>
         </nav>
         <div class="content-wrapper">
-            <div class="story-body">
-                <div class="stories">
-                    <section class="user">
-                        <article class="story" style="--bg: linear-gradient(red, yellow);">
-                            <div>
-                                <h1>
-                                    This Week:
-                                </h1>
-                                <p>
-                                    You have spent less than usual at this place
-                                </p>
-                            </div>
-                        </article>
-                    </section>
-                    <section class="user">
-                        <article class="story" style="--bg: linear-gradient(blue, white);">
-                            <div>
-                                <h1>
-                                    Last Week:
-                                </h1>
-                                <p>
-                                    You have spent more than usual in Tesco
-                                </p>
-                            </div>
-                        </article>
-                    </section>
-                    <section class="user">
-                        <article class="story" style="--bg: linear-gradient(red, white);">
-                            <div>
-                                <h1>
-                                    This Month:
-                                </h1>
-                                <p>
-                                    Overall you are on track to reduce expenses by <strong>10%</strong>
-                                </p>
-                            </div>
-                        </article>
-                    </section>
+            <div class="card">
+                <div class="story-body">
+                    <div class="stories">
+                        <section class="user">
+                            <article class="story" style="--bg: linear-gradient(red, yellow);">
+                                <div>
+                                    <h1>
+                                        This Week:
+                                    </h1>
+                                    <p>
+                                        You have spent less than usual at this place
+                                    </p>
+                                </div>
+                            </article>
+                        </section>
+                        <section class="user">
+                            <article class="story" style="--bg: linear-gradient(blue, white);">
+                                <div>
+                                    <h1>
+                                        Last Week:
+                                    </h1>
+                                    <p>
+                                        You have spent more than usual in Tesco
+                                    </p>
+                                </div>
+                            </article>
+                        </section>
+                        <section class="user">
+                            <article class="story" style="--bg: linear-gradient(red, white);">
+                                <div>
+                                    <h1>
+                                        This Month:
+                                    </h1>
+                                    <p>
+                                        Overall you are on track to reduce expenses by <strong>10%</strong>
+                                    </p>
+                                </div>
+                            </article>
+                        </section>
+                    </div>
                 </div>
             </div>
         </div>
